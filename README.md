@@ -51,12 +51,41 @@ The application is built using:
 - **ggplot2** for data visualization
 - Linear regression for predictive modeling
 
-## Usage
+## Running the Application Locally
 
-To run the application locally:
-1. Clone this repository
-2. Ensure R is installed with required packages
-3. Run the app with `shiny::runApp()`
+To run the Shiny application locally, follow these steps:
+
+1. **Clone this Repository:**
+   - Clone the repository to your local machine using the following command:
+     ```bash
+     git clone https://github.com/Loveourn/insurance-expense-model-R.git
+     ```
+
+2. **Install Required R Packages:**
+   - Ensure that R is installed on your machine. If not, you can download it from [CRAN](https://cran.r-project.org/).
+   - Open R or RStudio and install the required packages by running the following command:
+     ```r
+     install.packages("shiny")
+     ```
+   - Additionally, install any other dependencies required for the application:
+     ```r
+     install.packages(c("package1", "package2", ...))
+     ```
+     Replace `"package1", "package2", ...` with the actual names of the packages required for your project.
+
+3. **Run the Application:**
+   - Navigate to the directory where you have cloned this repository:
+     ```r
+     setwd("path/to/your/cloned/repository")
+     ```
+     Replace `path/to/your/cloned/repository` with the actual path to the cloned repository folder.
+   - Run the Shiny app by executing:
+     ```r
+     shiny::runApp("insurance_predictor.R")
+     ```
+
+This will launch the Shiny application in your default web browser.
+
 
 ## Future Work
 
