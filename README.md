@@ -6,6 +6,8 @@ An interactive Shiny application that predicts health insurance costs based on i
 
 This project uses machine learning to predict annual health insurance charges based on personal factors like age, BMI, smoking status, and more. The app provides both prediction functionality and data visualizations to help users understand what drives insurance costs.
 
+<img src="assets/Model%20Prediction%20UI.png" alt="Model Prediction UI" width="800" style="border: 2px solid black;">
+
 ## Dataset
 
 The analysis uses the `insurance.csv` dataset which contains the following variables:
@@ -26,17 +28,15 @@ The analysis uses the `insurance.csv` dataset which contains the following varia
 ## Analysis Highlights
 
 ### 1. Age vs. Insurance Charges
-https://github.com/Loveourn/insurance-expense-model-R/blob/main/assets/Data%20Visualization.png?raw=true
+<img src="assets/Data%20Visualization.png" alt="Smoking Impact" width="600" style="border: 2px solid black;">
 
 Age shows a positive correlation with insurance charges, with costs steadily increasing as people get older. The effect is more pronounced for smokers, who show a steeper increase in costs with age.
 
 ### 2. Impact of Smoking
-![Smoking Impact](assets/Model-Prediction-UI.png)
 
 Smoking is the single most significant factor affecting insurance costs. The visualization clearly demonstrates smokers pay approximately 3-4 times more than non-smokers with otherwise similar characteristics.
 
 ### 3. Model Results
-
 The linear regression model reveals the following key relationships:
 - Being a smoker increases costs by approximately $24,000 annually
 - Each year of age adds about $250 to annual costs
