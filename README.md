@@ -26,12 +26,12 @@ The analysis uses the `insurance.csv` dataset which contains the following varia
 ## Analysis Highlights
 
 ### 1. Age vs. Insurance Charges
-![Age vs. Charges](assets/Data Visualization.png)
+![Age vs. Charges](assets/Data-Visualization.png)
 
 Age shows a positive correlation with insurance charges, with costs steadily increasing as people get older. The effect is more pronounced for smokers, who show a steeper increase in costs with age.
 
 ### 2. Impact of Smoking
-![Smoking Impact](assets/Model Prediction UI.png)
+![Smoking Impact](assets/Model-Prediction-UI.png)
 
 Smoking is the single most significant factor affecting insurance costs. The visualization clearly demonstrates smokers pay approximately 3-4 times more than non-smokers with otherwise similar characteristics.
 
