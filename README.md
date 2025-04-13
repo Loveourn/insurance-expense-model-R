@@ -26,7 +26,7 @@ The analysis uses the `insurance.csv` dataset which contains the following varia
 ## Analysis Highlights
 
 ### 1. Age vs. Insurance Charges
-![Age vs. Charges](assets/Data-Visualization.png)
+https://github.com/Loveourn/insurance-expense-model-R/blob/main/assets/Data%20Visualization.png
 
 Age shows a positive correlation with insurance charges, with costs steadily increasing as people get older. The effect is more pronounced for smokers, who show a steeper increase in costs with age.
 
